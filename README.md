@@ -1,6 +1,6 @@
 # scala
 
-## Docker でを動かす
+## Docker で動かす
 - Reference: https://github.com/hseeberger/scala-sbt
 
 ```bash
