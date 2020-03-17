@@ -10,5 +10,5 @@ docker run -it --rm hseeberger/scala-sbt sbt
 ```
 
 ```bash
-docker run -it --rm -v $(PWD):/root hseeberger/scala-sbt bash
+docker run -it --rm -v $(pwd):/root hseeberger/scala-sbt bash
 ```
