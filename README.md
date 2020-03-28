@@ -1,4 +1,4 @@
-# scala
+# scala-lang
 
 ## Docker で動かす
 - Reference: https://github.com/hseeberger/scala-sbt
