@@ -6,16 +6,16 @@ trait TraitB2 extends TraitA2 {
   override def greet(): Unit = println("Good morning")
 }
 
-trait TraitC3 extends TraitA2 {
+trait TraitC2 extends TraitA2 {
   override def greet(): Unit = println("Good evening")
 }
 
-class ClassA3 extends TraitB2 with TraitC3
-class ClassB3 extends TraitC3 with TraitB2
+class ClassA2 extends TraitB2 with TraitC2
+class ClassB2 extends TraitC2 with TraitB2
 
 object TraitStudy2 extends App {
-  (new ClassA3).greet()
-  (new ClassB3).greet()
+  (new ClassA2).greet()
+  (new ClassB2).greet()
 }
 
 // Good evening

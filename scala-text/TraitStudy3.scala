@@ -17,7 +17,7 @@ trait TraitC3 extends TraitA3 {
 }
 
 class ClassA3 extends TraitB3 with TraitC3
-class ClassB3 extends TraitB3 with TraitC3
+class ClassB3 extends TraitC3 with TraitB3
 
 object TraitStudy3 extends App {
   (new ClassA3).greet()
