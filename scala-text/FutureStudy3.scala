@@ -1,6 +1,5 @@
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
-// import scala.util.Random
 import scala.util.{Failure, Random, Success}
 
 object FutureStudy3 extends App {
